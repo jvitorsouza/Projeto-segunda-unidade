@@ -23,24 +23,24 @@ int main()
 
 
     //Declarando o objeto para escrever o arquivo .vect
-    Sculptor escultor_2(30,40,30);
+    Sculptor escultor_2(30,35,35);
 
-    escultor_2.setColor(0,1,0,0.7);
-    escultor_2.putEllipsoid(12,16,12,12,16,12);
-    escultor_2.cutEllipsoid(12,16,12,11,15,11);
+    escultor_2.setColor(0,1,0,1);
+    escultor_2.putEllipsoid(13,13,14,14,15,15);
+    escultor_2.cutEllipsoid(12,35,12,11,116,10);
     escultor_2.setColor(1,1,1,0.5);
-    escultor_2.putSphere(6,16,8,4);
-    escultor_2.cutSphere(6,16,8,3);
-    escultor_2.putSphere(6,16,16,4);
-    escultor_2.cutSphere(6,16,16,3);
+    escultor_2.putSphere(5,17,8,4);
+    escultor_2.cutSphere(5,17,8,3);
+    escultor_2.putSphere(5,17,16,4);
+    escultor_2.cutSphere(5,17,16,3);
     escultor_2.setColor(0,0,0,1);
-    escultor_2.putSphere(6,16,8,2);
-    escultor_2.putSphere(6,16,16,2);
-    escultor_2.cutBox(0,4,0,25,0,25);
+    escultor_2.putSphere(6,10,8,2);
+    escultor_2.putSphere(6,10,16,2);
+    escultor_2.cutBox(0,4,0,12,0,25);
 
 
     string off_scr("nave");
-    escultor2.writeOFF(off_scr);
+    escultor_2.writeOFF(off_scr);
 
     return 0;
 }
