@@ -7,10 +7,12 @@ SOURCES += main.cpp \
     figurageometrica.cpp \
     putbox.cpp \
     cutbox.cpp \
-    putsphere.cpp
+    putsphere.cpp \
+    putvoxel.cpp
 
 HEADERS += \
     figurageometrica.h \
     putbox.h \
     cutbox.h \
-    putsphere.h
+    putsphere.h \
+    putvoxel.h
