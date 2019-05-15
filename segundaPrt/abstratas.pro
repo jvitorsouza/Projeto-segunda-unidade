@@ -8,11 +8,13 @@ SOURCES += main.cpp \
     putbox.cpp \
     cutbox.cpp \
     putsphere.cpp \
-    putvoxel.cpp
+    putvoxel.cpp \
+    cutvoxel.cpp
 
 HEADERS += \
     figurageometrica.h \
     putbox.h \
     cutbox.h \
     putsphere.h \
-    putvoxel.h
+    putvoxel.h \
+    cutvoxel.h
