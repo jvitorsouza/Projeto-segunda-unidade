@@ -1,8 +1,8 @@
 #ifndef PUTVOXEL_H
 #define PUTVOXEL_H
+#include "figurageometrica.h"
 
-
-class putvoxel : public figurageometrica
+class putvoxel : public FiguraGeometrica
 {
 public:
     putvoxel();

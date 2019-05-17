@@ -5,8 +5,9 @@
 class CutBox : public FiguraGeometrica
 {
 public:
-  CutBox();
-  void draw();
+    CutBox();
+    ~CutBox();
+    void draw(Sculptor &t);
 };
 
 #endif // CUTBOX_H
