@@ -6,6 +6,8 @@ class cutsphere : public FiguraGeometrica
 {
 public:
     cutsphere();
+    ~cutsphere();
+    void draw(Sculptor &t);
 };
 
 #endif // CUTSPHERE_H

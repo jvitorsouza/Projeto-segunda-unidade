@@ -6,6 +6,8 @@ class putvoxel : public FiguraGeometrica
 {
 public:
     putvoxel();
+    ~putvoxel();
+    void draw(Sculptor &t);
 };
 
 #endif // PUTVOXEL_H

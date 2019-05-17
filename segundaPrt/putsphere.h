@@ -6,7 +6,8 @@ class PutSphere : public FiguraGeometrica
 {
 public:
   PutSphere();
-  void draw();
+  ~PutSphere();
+  void draw(Sculptor &t);
 };
 
 #endif // PUTSPHERE_H

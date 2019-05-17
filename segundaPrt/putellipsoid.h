@@ -6,6 +6,8 @@ class putellipsoid : public FiguraGeometrica
 {
 public:
     putellipsoid();
+    ~putellipsoid();
+    void draw(Sculptor &t);
 };
 
 #endif // PUTELLIPSOID_H

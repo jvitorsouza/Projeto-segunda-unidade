@@ -6,6 +6,8 @@ class cutvoxel : public FiguraGeometrica
 {
 public:
     cutvoxel();
+    ~cutvoxel();
+    void draw(Sculptor &t);
 };
 
 #endif // CUTVOXEL_H
