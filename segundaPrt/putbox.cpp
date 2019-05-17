@@ -6,9 +6,11 @@ PutBox::PutBox(){
 }
 
 PutBox::~PutBox(){
-  std::cout << "destrutor PutBox\n";
+    std::cout << "destrutor PutBox\n";
 }
 
-void PutBox::draw(){
-  std::cout << "draw PutBox\n";
+void PutBox::draw(Sculptor &t)
+{
+
 }
+

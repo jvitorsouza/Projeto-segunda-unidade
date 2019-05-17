@@ -4,3 +4,8 @@ cutvoxel::cutvoxel()
 {
 
 }
+
+void cutvoxel::draw(Sculptor &t)
+{
+
+}

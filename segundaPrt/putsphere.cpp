@@ -6,7 +6,9 @@ PutSphere::PutSphere()
 
 }
 
-void PutSphere::draw()
+void PutSphere::draw(Sculptor &t)
 {
-  std::cout << "draw PutSphere\n";
+
 }
+
+

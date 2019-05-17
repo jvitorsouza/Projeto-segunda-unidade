@@ -6,7 +6,7 @@ class PutBox : public FiguraGeometrica{
 public:
   PutBox();
   ~PutBox();
-  void draw();
+  void draw(Sculptor &t);
 };
 
 #endif // BOX_H

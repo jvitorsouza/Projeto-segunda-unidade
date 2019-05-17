@@ -4,3 +4,8 @@ putellipsoid::putellipsoid()
 {
 
 }
+
+void putellipsoid::draw(Sculptor &t)
+{
+
+}

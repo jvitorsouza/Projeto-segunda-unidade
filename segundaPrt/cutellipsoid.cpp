@@ -4,3 +4,8 @@ cutellipsoid::cutellipsoid()
 {
 
 }
+
+void cutellipsoid::draw(Sculptor &t)
+{
+
+}

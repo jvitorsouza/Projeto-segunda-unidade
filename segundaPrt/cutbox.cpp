@@ -5,6 +5,9 @@ CutBox::CutBox(){
 
 }
 
-void CutBox::draw(){
-  std::cout << "draw CutBox\n";
+void CutBox::draw(Sculptor &t)
+{
+
 }
+
+

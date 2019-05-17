@@ -4,3 +4,8 @@ putvoxel::putvoxel()
 {
 
 }
+
+void putvoxel::draw(Sculptor &t)
+{
+
+}
