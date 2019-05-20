@@ -2,11 +2,13 @@
 #define CUTVOXEL_H
 #include "figurageometrica.h"
 
-class cutvoxel : public FiguraGeometrica
+class CutVoxel : public FiguraGeometrica
 {
+protected:
+    int x, y, z;
 public:
-    cutvoxel();
-    ~cutvoxel();
+    CutVoxel(int _x, int _y, int _z);
+    ~CutVoxel();
     void draw(Sculptor &t);
 };
 

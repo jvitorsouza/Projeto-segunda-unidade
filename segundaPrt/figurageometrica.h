@@ -1,14 +1,13 @@
 #ifndef FIGURAGEOMETRICA_H
 #define FIGURAGEOMETRICA_H
-#include "figurageometrica.h"
 
-class FiguraGeometrica{
+#include "sculptor.h"
+
+class FiguraGeometrica
+{
 public:
   FiguraGeometrica();
   virtual ~FiguraGeometrica();
-  // classe eh abstrata
-  // pois possui uma funcao virtual
-  // PURA
   virtual void draw(Sculptor &t)=0;
 };
 

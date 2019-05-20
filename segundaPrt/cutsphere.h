@@ -2,11 +2,13 @@
 #define CUTSPHERE_H
 #include "figurageometrica.h"
 
-class cutsphere : public FiguraGeometrica
+class CutSphere : public FiguraGeometrica
 {
+protected:
+    int xcenter, ycenter, zcenter, radius;
 public:
-    cutsphere();
-    ~cutsphere();
+    CutSphere(int _xcenter, int _ycenter, int _zcenter, int _radius);
+    ~CutSphere();
     void draw(Sculptor &t);
 };
 
